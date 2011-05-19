@@ -1,0 +1,325 @@
+/* orange color #ef3f24*/
+*{
+	margin: 0 auto;	
+}
+img{
+	border: 0px;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 40px;
+	font-size: 12px;
+	background-image: url(../../images/bodybgstripe.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	margin-bottom: 0px;
+	height: 100%;
+}
+a{
+	text-decoration: underline;	
+}
+a:hover{
+	text-decoration: none;	
+}
+.links{
+	color: #ef3f24;
+}
+.links:hover{
+	text-decoration: underline;	
+}
+input {outline-style: none;}
+.c{
+	clear: both;	
+}
+#maintable{
+	background-color: none;
+	border-top: 4px solid #dfdfdf;
+}
+thead th, .th{
+	padding: 12px;
+	font-size: 12px;
+	background-image: url(../../images/th_bg_exp.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	border-top: 1px solid white;
+	border-bottom: 4px solid #dfdfdf;
+	border-left: 1px solid white;
+	border-right: 1px solid #dfdfdf;
+	color: #737372;
+	background-color: #f2f2f2;
+	text-shadow: 0 2px 2px white;
+	cursor: pointer;
+}
+#maintable th a{
+	color: #737372;
+	display: block;
+	width: 100%;
+	padding: 18px 0px;
+}
+#maintable tbody td{
+	font-size:11px;
+	padding: 7px;
+	border-right: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
+}
+#firstth{
+	border-left: 1px solid #dfdfdf;	
+}
+#lastth{
+	background-image: none;
+	background-position: left;
+	background-repeat: repeat-y;
+	border: 0px;
+	border-bottom: 4px solid #dfdfdf;
+	background-color: #dfdfdf;
+	cursor: auto;
+}
+.firstcol{
+	border-left: 1px solid #dfdfdf;	
+}
+.actioncol{
+	background-image: url(../../images/th_bg_exp.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	text-align: center;
+	color: #737372;
+	cursor: pointer;
+	background-color: #f2f2f2;
+	border-top: 1px solid white;
+	text-shadow: 0 1px 1px white;
+	border-left: 1px solid white;
+}
+.tablebthover, .headerSortUp, .headerSortDown, .actionoverstate{
+	background-image: none;
+	background: #dfdfdf; 
+	color: #333;
+	border-top-color: #CCC;
+	border-left: 1px solid #CCC;
+	text-shadow: none;
+}
+.headerSortUp{
+	background-image: url(../../images/asc.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.headerSortDown{
+	background-image: url(../../images/desc.gif);
+	background-repeat: no-repeat;
+	background-position: left center;	
+}
+.rowcoloraction{
+	background-color: #eefdea;	
+}
+.stripe{
+	background-color: #fef2ee;	
+}
+tfoot tr td{
+	border-top: 3px solid #dfdfdf;	
+}
+.nostyle{
+	border: none;
+	background-image: none;
+	background-color: none;
+}
+#leftfoot, #rightfoot{
+	background-image: url(../../images/tfoot_exp.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	height: 48px;
+}
+#rightfoot{
+	background-position: right top;
+}
+#footshadow{
+	background-image: url(../../images/footshadow.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 64px;
+}
+#footertext{
+	width: 50%;
+	color: #c3c1c2;
+	float: left;
+	font-size: 10px;
+	text-align: center;
+	padding-top: 15px;
+}
+#footertext a{
+	color: #ef3f24;
+}
+#btnav {
+    background: transparent url('../../images/oragebt_bt_cap.png') no-repeat scroll bottom right;
+    display: block;
+    float: right;
+    height: 64px;
+    padding-right: 38px; /* sliding doors padding */
+    text-decoration: none;
+		width: 40%;
+		text-align: center;
+		margin-right: -7px;
+}
+#btnav span {
+    background: transparent url('../../images/oragebt_bt_exp.png') no-repeat;
+		background-position: right left;
+    display: block;
+    line-height: 64px;
+    padding: 0px 0px 0px 38px;
+}
+#btnav span a{
+	color: white;
+	padding: 0px 6px;
+	text-shadow: 0 2px 2px #ab260f;
+	border-right: 1px solid #ab260f;
+	border-left: 1px solid #fe6d36;
+	margin: 0px;
+	text-decoration: none;
+}
+#header{
+	padding-bottom: 10px;	
+	width: 100%;
+}
+#tpnav{
+	width: 100%;
+	background-image: url(../../images/tpnav.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	height: 40px;
+	margin-top: -38px;
+	margin-bottom: 20px;
+	color: #DFDFDF;
+	text-align: right;
+}
+#tpinnernav{
+	width: 360px;	
+	float: right;
+	text-align: center;
+	padding-top: 5px;
+	color: #464646;
+}
+#tpinnernav ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#tpinnernav ul li{
+	display: inline;	
+}
+#tpinnernav ul li a{
+	color: #737373;	
+	padding: 5px 10px;
+}
+#tpinnernav ul li a:hover{
+	color: #dfdfdf;
+}
+#logo{
+	float: left;
+}
+#title{
+	float: left;
+	width: px;
+	background-image: url(../../images/beta.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	text-align:left;
+	margin-left: 2%;
+}
+.oragehead{
+	color: #ef3f24;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 25px;	
+}
+#nav{
+	float: right;
+	text-align: right;
+	width: 350px;
+}
+#nav ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#nav ul li{
+	display: inline;
+}
+a.navbt {
+    background: transparent url('../../images/orangbt_sm_cap.png') no-repeat scroll top right;
+    color: white;
+    display: block;
+    float: right;
+    height: 48px;
+    margin-right: 2px;
+    padding-right: 14px; /* sliding doors padding */
+    text-decoration: none;
+	text-shadow: 0 2px 2px #ab260f;
+}
+
+a.navbt span {
+    background: transparent url('../../images/orangbt_sm_exp.png') no-repeat;
+    display: block;
+    line-height: 38px;
+    padding: 5px 0 5px 18px;
+} 
+#btnav span a:hover, a.navbt span:hover{
+	text-shadow: 0px 1px 1px #fe8b60;
+	color: #ab260f;
+}
+.inttochar{
+	color: #333;
+	font-size: 10px;
+	text-align: center;
+}
+.lggreyhead{
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+.smallgrey{
+	font-size: 10px;
+	padding-bottom: 20px;
+}
+.input, #joanfield{
+	background-image: url(../../images/inputshadow.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	border: 3px solid #dfdfdf;
+	padding: 8px;
+	width: 90%;
+	margin-top: 8px;
+	margin-bottom: 5px;
+	font-size: 14px;
+}
+#joanfield{
+	display: block;
+	width: 100px;
+	float: left;
+}
+#subpagecontent{
+	padding: 0px;
+}
+#maintable th#backtohome{
+	width: 100px;
+	padding: 0px;
+}
+#subpagecontent #maintable th#thtitle{
+	background-image: none;
+	background: #f2f2f2;
+	cursor: auto;
+	text-align: left;
+}
+#subpagecontent #maintable tbody td{
+	background: #f2f2f2;
+	border: none;
+	border-right: 1px solid #dfdfdf;
+	border-left: 1px solid white;
+}
+#subpagecontent #firstrow td{
+	border-top: 1px solid white;
+	padding: 10px;
+}
+.version{
+	font-size: 10px;
+}
+.noval{
+	color: #ccc;
+}
